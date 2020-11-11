@@ -8,13 +8,85 @@ const fs = require("fs")
 const questions = [
 {   type: "input",
     name: "title",
-    message: "What is the title of your project?"
+    message: "What is the title of your project? "
 },
 // use the correct order from the readme... order MATTERS   
 {
     type: "input",
     name: "description",
-    message: "What is the description of your project?"
+    message: "Write a detailed description of your project: "
+},
+
+{
+    type: "input",
+    name: "installation",
+    message: "Enter your installation instructions: "
+},
+
+{
+    type: "input",
+    name: "usage",
+    message: "How do users use your application? "
+},
+
+{
+    type: "input",
+    name: "contributing",
+    message: "Who all contributed in building your application?"
+},
+
+{
+    type: "input",
+    name: "tests",
+    message: "What are the test instructions?"
+},
+
+{
+    type: "input",
+    name: "questions",
+    message: "What is your GitHub Username:"
+},
+
+{
+    type: "input",
+    name: "questions",
+    message: "What is your email address?"
+},
+
+{
+    type: "list",
+    name: "license",
+    message: "Choose your license:"
+},
+
+{
+    type: "input",
+    name: "license",
+    message: "Enter your badge URL here:"
+},
+
+{
+    type: "",
+    name: "",
+    message: ""
+},
+
+{
+    type: "",
+    name: "",
+    message: ""
+},
+
+{
+    type: "",
+    name: "",
+    message: ""
+},
+
+{
+    type: "",
+    name: "",
+    message: ""
 },
 
 ];
