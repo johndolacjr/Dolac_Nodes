@@ -1,6 +1,6 @@
 
   
-  # vhsdjk 
+  # README Generator 
 
   ![project image](./imgurl.png)
 
@@ -14,24 +14,24 @@
   *  [License](#license)
 
   ## Description: 
-  hdjask
+  Use this workflow to generate awesome README's
 
   ## Installation:
-  vcsjkdla
+  NA
 
   ## Usage Info:
-  vhjdskla
+  Access this application by DL inquirer and using node to generate your readme's
 
   ## Contributors:
-  vnfdjskl
+  John DOlac
 
   ## Tests:
-  hvfk;
+  NA
 
   ## Questions:
   johndolacjr@gmail.com
 
   ## License:
-  hvfjdslbhv
-  hvfjdslbhv
+  NA
+  NA
 
