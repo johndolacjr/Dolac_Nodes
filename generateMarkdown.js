@@ -2,7 +2,8 @@
 function generateMarkdown(data) {
   return `
   
-  # ${data.title} 
+  # :arrows_clockwise: ${data.title}
+  ## ${data.badge}  
 
   ![project image](https://raw.githubusercontent.com/johndolacjr/Dolac_Nodes/main/README_GEN_IMG.png)
 
@@ -31,11 +32,13 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions:
-  ${data.questions}
-
+  Contact: 
+  Github: [https://github.com/${data.github}](https://github.com/${data.github})
+  Email: [${data.email}](${data.email})
+  
   ## License:
   ${data.license}
-  ${data.badge}
+
 
 `;
 }

@@ -45,13 +45,13 @@ const questions = [
 
 {
     type: "input",
-    name: "questions",
+    name: "github",
     message: "What is your GitHub Username:"
 },
 
 {
     type: "input",
-    name: "questions",
+    name: "email",
     message: "What is your email address?"
 },
 
@@ -70,7 +70,7 @@ const questions = [
 
 {
     type: "input",
-    name: "license",
+    name: "badge",
     message: "Enter your badge URL here:"
 },
 
