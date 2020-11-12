@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   
   # ${data.title} 
 
-  ![project image](./imgurl.png)
+  ![project image](https://raw.githubusercontent.com/johndolacjr/Dolac_Nodes/main/README_GEN_IMG.png)
 
   ## Table of Contents: 
   *  [Description](#description)
@@ -35,7 +35,7 @@ function generateMarkdown(data) {
 
   ## License:
   ${data.license}
-  ${data.license}
+  ${data.badge}
 
 `;
 }
