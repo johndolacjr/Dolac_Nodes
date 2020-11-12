@@ -60,19 +60,22 @@ const questions = [
     name: "license",
     message: "Choose your license:",
     choices: [
+        "Apache",
+        "Boost Software License 1.0",
+        "Eclipse Public License 1.0",
+        "GNU GPL v3",
+        "IBM Public License Version 1.0",
+        "ISC License (ISC)",
         "MIT",
-        "APACHE 2.0",
-        "GNU GPLv3",
-        "ISC",
         "None"
     ]
 },
 
-{
-    type: "input",
-    name: "badge",
-    message: "Enter your badge URL here:"
-},
+// {
+//     type: "input",
+//     name: "badge",
+//     message: "Enter your badge URL here:"
+// },
 
 // {
 //     type: "",

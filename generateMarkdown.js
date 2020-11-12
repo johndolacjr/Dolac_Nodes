@@ -1,11 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  
   # :arrows_clockwise: ${data.title}
  
   ![project image](https://raw.githubusercontent.com/johndolacjr/Dolac_Nodes/main/README_GEN_IMG.png)
-  * Video Demonstration: https://www.youtube.com/watch?v=wr_XyZc8P7s&feature=youtu.be
+  * Video Demonstration: [Click Here](https://www.youtube.com/watch?v=wr_XyZc8P7s&feature=youtu.be)
 
   ## Table of Contents: 
   *  [Description](#description)
@@ -38,7 +37,7 @@ function generateMarkdown(data) {
   
   ## License:
   ${data.license}
-  ## ${data.badge}  
+  [![License](https://img.shields.io/badge/License-${data.badge}%202.0-blue.svg)](https://opensource.org/licenses/${data.badge}-2.0)
 
 `;
 }
