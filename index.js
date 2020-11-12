@@ -5,12 +5,14 @@ const fs = require("fs")
 
 
 // array of questions for user
+// use the correct order from the readme... order MATTERS   
 const questions = [
-{   type: "input",
+{   
+    type: "input",
     name: "title",
     message: "What is the title of your project? "
 },
-// use the correct order from the readme... order MATTERS   
+
 {
     type: "input",
     name: "description",
@@ -56,7 +58,14 @@ const questions = [
 {
     type: "list",
     name: "license",
-    message: "Choose your license:"
+    message: "Choose your license:",
+    choices: [
+        "MIT",
+        "APACHE 2.0",
+        "GNU GPLv3",
+        "ISC",
+        "None"
+    ]
 },
 
 {
@@ -65,29 +74,29 @@ const questions = [
     message: "Enter your badge URL here:"
 },
 
-{
-    type: "",
-    name: "",
-    message: ""
-},
+// {
+//     type: "",
+//     name: "",
+//     message: ""
+// },
 
-{
-    type: "",
-    name: "",
-    message: ""
-},
+// {
+//     type: "",
+//     name: "",
+//     message: ""
+// },
 
-{
-    type: "",
-    name: "",
-    message: ""
-},
+// {
+//     type: "",
+//     name: "",
+//     message: ""
+// },
 
-{
-    type: "",
-    name: "",
-    message: ""
-},
+// {
+//     type: "",
+//     name: "",
+//     message: ""
+// },
 
 ];
 
