@@ -3,9 +3,9 @@ function generateMarkdown(data) {
   return `
   
   # :arrows_clockwise: ${data.title}
-  ## ${data.badge}  
-
+ 
   ![project image](https://raw.githubusercontent.com/johndolacjr/Dolac_Nodes/main/README_GEN_IMG.png)
+  ![project video]<iframe src="https://drive.google.com/file/d/1MHHFnUVwSQPMiA1LAX7llfvTgKE1te9-/preview" width="640" height="480"></iframe>
 
   ## Table of Contents: 
   *  [Description](#description)
@@ -38,6 +38,7 @@ function generateMarkdown(data) {
   
   ## License:
   ${data.license}
+  ## ${data.badge}  
 
 
 `;

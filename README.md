@@ -1,9 +1,9 @@
 
   
   # :arrows_clockwise: README Generator
-  ## NA  
-
-  ![project image](https://raw.githubusercontent.com/johndolacjr/Dolac_Nodes/main/README_GEN_IMG.png)git add
+ 
+  ![project image](https://raw.githubusercontent.com/johndolacjr/Dolac_Nodes/main/README_GEN_IMG.png)
+  ![project video]<iframe src="https://drive.google.com/file/d/1MHHFnUVwSQPMiA1LAX7llfvTgKE1te9-/preview" width="640" height="480"></iframe>
 
   ## Table of Contents: 
   *  [Description](#description)
@@ -15,29 +15,27 @@
   *  [License](#license)
 
   ## Description: 
-  This workflow allows your to create a consistent organized README file for your projects/applications.
+  NA
 
   ## Installation:
-  clone this from the repo from my GitHub
+  NA
 
   ## Usage Info:
-  node index.js is the command you need to run in your terminal once cloned from the Repo. 
+  NA
 
   ## Contributors:
-  John Dolac
+  NA
 
   ## Tests:
   NA
 
   ## Questions:
   Contact: 
-  Github: [https://github.com/johndolacjr](https://github.com/johndolacjr)
-  Email: [johndolacjr@gmail.com](johndolacjr@gmail.com)
+  Github: [https://github.com/NA](https://github.com/NA)
+  Email: [NA](NA)
   
-  // johndolacjr
-  // undefined
-
   ## License:
-  GNU GPLv3
+  MIT
+  ## NA  
 
 
