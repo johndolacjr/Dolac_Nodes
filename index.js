@@ -61,46 +61,15 @@ const questions = [
     message: "Choose your license:",
     choices: [
         "Apache",
-        "Boost Software License 1.0",
-        "Eclipse Public License 1.0",
-        "GNU GPL v3",
-        "IBM Public License Version 1.0",
-        "ISC License (ISC)",
+        "Boost",
+        "Eclipse",
+        "GNU",
+        "IBM",
+        "ISC",
         "MIT",
         "None"
     ]
 },
-
-// {
-//     type: "input",
-//     name: "badge",
-//     message: "Enter your badge URL here:"
-// },
-
-// {
-//     type: "",
-//     name: "",
-//     message: ""
-// },
-
-// {
-//     type: "",
-//     name: "",
-//     message: ""
-// },
-
-// {
-//     type: "",
-//     name: "",
-//     message: ""
-// },
-
-// {
-//     type: "",
-//     name: "",
-//     message: ""
-// },
-
 ];
 
 // function to write README file

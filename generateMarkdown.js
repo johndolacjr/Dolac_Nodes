@@ -3,6 +3,8 @@ function generateMarkdown(data) {
   return `
   # :arrows_clockwise: ${data.title}
  
+  [![License](https://img.shields.io/badge/License-${data.license}%20-blue.svg)](https://opensource.org/licenses/${data.license})
+
   ![project image](https://raw.githubusercontent.com/johndolacjr/Dolac_Nodes/main/README_GEN_IMG.png)
   * Video Demonstration: [Click Here](https://www.youtube.com/watch?v=wr_XyZc8P7s&feature=youtu.be)
 
@@ -37,8 +39,8 @@ function generateMarkdown(data) {
   
   ## License:
   ${data.license}
-  [![License](https://img.shields.io/badge/License-${data.badge}%202.0-blue.svg)](https://opensource.org/licenses/${data.badge}-2.0)
-
+  
+  
 `;
 }
 
